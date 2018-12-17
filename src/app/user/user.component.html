@@ -1,0 +1,11 @@
+<p>
+  user works!
+</p>
+
+<select name="User Name" id="ddlUser">
+  <option *ngFor="let u of users" value="">{{ u }}</option>
+</select>
+
+<button (click)="onMyBtnClick()">Click me</button>
+
+<span *ngFor="let user of users"></span>
